@@ -37,8 +37,6 @@ set nobackup                      " Don't make a backup before overwriting a fil
 set nowritebackup                 " And again.
 set directory=$HOME/.vim/tmp//,.  " Keep swap files in one location
 
-set mouse=a                       " mouse support
-
 set clipboard=unnamed             " use system clipboard
 
 " UNCOMMENT TO USE
@@ -62,7 +60,8 @@ let mapleader=","
 map <leader>f :FufCoverageFile<cr>
 map <leader>b :FufBuffer<cr>
 " nicer colors for popup menu
-highlight Pmenu ctermfg=1 ctermbg=4 guibg=grey30
+"highlight Pmenu ctermfg=1 ctermbg=4 guibg=grey30
+:highlight Pmenusel ctermfg=5
 
 " get rid of search hilights
 nmap <silent> <leader>/ :nohlsearch<cr>
