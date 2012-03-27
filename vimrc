@@ -54,11 +54,14 @@ set list listchars=tab:\ \ ,trail:·
 colorscheme topfunky-light
 
 " set up map leader
-let mapleader=","
+let mapleader=" "
 
 " use FuzzyFinder
 map <leader>f :FufCoverageFile<cr>
 map <leader>b :FufBuffer<cr>
+map <leader>t :FufTag<cr>
+map <leader>r :FufRenewCache<cr>
+
 " nicer colors for popup menu
 "highlight Pmenu ctermfg=1 ctermbg=4 guibg=grey30
 :highlight Pmenusel ctermfg=5
