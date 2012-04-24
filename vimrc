@@ -50,8 +50,8 @@ set statusline=[%n]\ %<%.99f\ %h%w%m%r%y\ %{fugitive#statusline()}%{exists('*Cap
 
 set list listchars=tab:\ \ ,trail:·
 
-" Set relative line numbers (good for jumping around)
-set relativenumber
+" Set absolute line numbers
+set number
 " Or use vividchalk
 colorscheme topfunky-light
 
