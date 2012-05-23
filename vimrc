@@ -100,6 +100,9 @@ autocmd BufNewFile,BufRead *_spec.rb compiler rspec
 " Use javascript plugin for json
 autocmd BufNewFile,BufRead *.json set ft=javascript
 
+" autodetect for VimClojure was not working
+autocmd BufNewFile,BufRead *.clj set filetype=clojure
+
 " :w!! reopens the file as sudo and saves it
 cmap w!! %!sudo tee > /dev/null %
 
