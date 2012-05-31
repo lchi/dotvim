@@ -103,6 +103,9 @@ autocmd BufNewFile,BufRead *.json set ft=javascript
 " autodetect for VimClojure was not working
 autocmd BufNewFile,BufRead *.clj set filetype=clojure
 
+" some coffee files have multiple dots
+autocmd BufNewFile,BufRead *.coffee set filetype=coffee
+
 " :w!! reopens the file as sudo and saves it
 cmap w!! %!sudo tee > /dev/null %
 
