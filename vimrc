@@ -106,6 +106,9 @@ autocmd BufNewFile,BufRead *.clj set filetype=clojure
 " some coffee files have multiple dots
 autocmd BufNewFile,BufRead *.coffee set filetype=coffee
 
+" use html filetype for .pjs files
+autocmd BufNewFile,BufRead *.pjs set filetype=html
+
 " :w!! reopens the file as sudo and saves it
 cmap w!! %!sudo tee > /dev/null %
 
