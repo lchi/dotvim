@@ -108,6 +108,7 @@ autocmd BufNewFile,BufRead *.coffee set filetype=coffee
 
 " use html filetype for .pjs files
 autocmd BufNewFile,BufRead *.pjs set filetype=html
+autocmd BufNewFile,BufRead *.toffee set filetype=html
 
 autocmd BufNewFile,BufRead *.go set filetype=go
 
