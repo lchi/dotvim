@@ -105,6 +105,7 @@ autocmd BufNewFile,BufRead *.clj set filetype=clojure
 
 " some coffee files have multiple dots
 autocmd BufNewFile,BufRead *.coffee set filetype=coffee
+autocmd BufNewFile,BufRead *.iced set filetype=coffee
 
 " use html filetype for .pjs files
 autocmd BufNewFile,BufRead *.pjs set filetype=html
