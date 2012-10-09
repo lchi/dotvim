@@ -81,6 +81,7 @@ nmap <leader>l <C-w>l
 nmap <leader>gd :Gdiff<cr>
 nmap <leader>gs :Gstatus<cr>
 nmap <leader>gc :Gcommit<cr>
+nmap <leader>gb :Gblame<cr>
 
 " Controversial...swap colon and semicolon for easier commands
 "nnoremap ; :
