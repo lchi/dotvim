@@ -133,5 +133,8 @@ nmap <leader>s :vsp <CR><C-w>l:exec("tag ".expand("<cword>"))<CR>
 " shortcut for :bd
 nmap <leader>w :bd<cr>
 
+" shortcut to delete trailing whitespace
+nmap <leader>nw :%s/\s\+$//g<cr>
+
 nmap <leader>p :set paste<cr>
 nmap <leader>np :set nopaste<cr>
