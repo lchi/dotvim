@@ -58,6 +58,3 @@
 [submodule "bundle/vim-toffee"]
 	path = bundle/vim-toffee
 	url = git://github.com/lchi/vim-toffee.git
-[submodule ".vim/bundle/puppet"]
-	path = .vim/bundle/puppet
-	url = git://github.com/rodjek/vim-puppet.git
