@@ -53,7 +53,7 @@ set list listchars=tab:\ \ ,trail:·
 " Set absolute line numbers
 set number
 " Or use vividchalk
-colorscheme topfunky-light
+colorscheme xoria256
 
 " set up map leader
 let mapleader=","
@@ -65,8 +65,8 @@ map <leader>t :FufTag<cr>
 map <leader>r :FufRenewCache<cr>
 
 " nicer colors for popup menu
-"highlight Pmenu ctermfg=1 ctermbg=4 guibg=grey30
-:highlight Pmenusel ctermfg=5
+highlight Pmenu ctermfg=16 ctermbg=57 guibg=grey30
+":highlight Pmenusel ctermfg=5
 
 " get rid of search hilights
 nmap <silent> <leader>/ :nohlsearch<cr>
