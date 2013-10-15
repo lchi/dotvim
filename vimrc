@@ -115,6 +115,9 @@ autocmd BufNewFile,BufRead *.less set filetype=less
 
 autocmd BufNewFile,BufRead *.go set filetype=go
 
+" nginx conf highlighting
+au BufRead,BufNewFile /etc/nginx/*,/usr/local/nginx/conf/*,*nginx.conf if &ft == '' | setfiletype nginx | endif
+
 " :w!! reopens the file as sudo and saves it
 cmap w!! %!sudo tee > /dev/null %
 
