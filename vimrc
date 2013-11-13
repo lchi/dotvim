@@ -61,7 +61,8 @@ let mapleader=","
 " use FuzzyFinder
 map <leader>f :FufCoverageFile<cr>
 map <leader>b :FufBuffer<cr>
-map <leader>t :FufTag<cr>
+" Replaced with NERDTree
+" map <leader>t :FufTag<cr>
 map <leader>r :FufRenewCache<cr>
 
 " nicer colors for popup menu
@@ -141,3 +142,5 @@ nmap <leader>nw :%s/\s\+$//g<cr>
 
 nmap <leader>p :set paste<cr>
 nmap <leader>np :set nopaste<cr>
+
+nmap <leader>t :NERDTree<cr>
