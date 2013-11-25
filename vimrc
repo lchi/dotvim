@@ -73,10 +73,10 @@ highlight Pmenu ctermfg=16 ctermbg=57 guibg=grey30
 nmap <silent> <leader>/ :nohlsearch<cr>
 
 " Easy window navigation
-nmap <leader>h <C-w>h
-nmap <leader>j <C-w>j
-nmap <leader>k <C-w>k
-nmap <leader>l <C-w>l
+" nmap <leader>h <C-w>h
+" nmap <leader>j <C-w>j
+" nmap <leader>k <C-w>k
+" nmap <leader>l <C-w>l
 
 " fugitive
 nmap <leader>gd :Gdiff<cr>
@@ -144,3 +144,4 @@ nmap <leader>p :set paste<cr>
 nmap <leader>np :set nopaste<cr>
 
 nmap <leader>t :NERDTree<cr>
+nmap <leader>h :split<cr>
