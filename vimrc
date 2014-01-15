@@ -116,6 +116,9 @@ autocmd BufNewFile,BufRead *.less set filetype=less
 
 autocmd BufNewFile,BufRead *.go set filetype=go
 
+" use yaml ft for eyaml (encrypted yaml)
+autocmd BufNewFile,BufRead *.eyaml set filetype=yaml
+
 " nginx conf highlighting
 au BufRead,BufNewFile /etc/nginx/*,/usr/local/nginx/conf/*,*nginx.conf if &ft == '' | setfiletype nginx | endif
 
