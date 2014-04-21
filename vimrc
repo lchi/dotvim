@@ -58,12 +58,12 @@ colorscheme xoria256
 " set up map leader
 let mapleader=","
 
-" use FuzzyFinder
-map <leader>f :FufCoverageFile<cr>
-map <leader>b :FufBuffer<cr>
+" use CtrlP
+map <leader>f :CtrlP<cr>
+map <leader>b :CtrlPBuffer<cr>
 " Replaced with NERDTree
 " map <leader>t :FufTag<cr>
-map <leader>r :FufRenewCache<cr>
+map <leader>r :ClearCtrlPCache<cr>
 
 " nicer colors for popup menu
 highlight Pmenu ctermfg=16 ctermbg=57 guibg=grey30
