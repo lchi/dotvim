@@ -68,6 +68,12 @@ map <leader>r :ClearCtrlPCache<cr>
 " CtrlP working directory
 let g:ctrlp_working_path_mode = 0
 
+" CtrlP custom ignore
+let g:ctrlp_custom_ignore = {
+  \ 'dir':  '\v[\/](\.(git|hg|svn)|(node_modules))$',
+  \ 'file': '\v\.(exe|so|dll)$',
+  \ }
+
 " nicer colors for popup menu
 highlight Pmenu ctermfg=16 ctermbg=57 guibg=grey30
 ":highlight Pmenusel ctermfg=5
