@@ -65,6 +65,9 @@ map <leader>b :CtrlPBuffer<cr>
 " map <leader>t :FufTag<cr>
 map <leader>r :ClearCtrlPCache<cr>
 
+" CtrlP working directory
+let g:ctrlp_working_path_mode = 0
+
 " nicer colors for popup menu
 highlight Pmenu ctermfg=16 ctermbg=57 guibg=grey30
 ":highlight Pmenusel ctermfg=5
