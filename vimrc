@@ -80,6 +80,10 @@ let g:syntastic_auto_loc_list = 0
 let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
 
+" vim-phpqa setup
+let g:phpqa_codesniffer_args = "--standard=PSR1,PSR2 -n"
+let g:phpqa_open_loc = 0
+
 " nicer colors for popup menu
 highlight Pmenu ctermfg=16 ctermbg=57 guibg=grey30
 ":highlight Pmenusel ctermfg=5
