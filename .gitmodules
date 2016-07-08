@@ -82,3 +82,6 @@
 [submodule "bundle/vim-phpqa"]
 	path = bundle/vim-phpqa
 	url = git@github.com:joonty/vim-phpqa.git
+[submodule "bundle/Dockerfile"]
+	path = bundle/Dockerfile
+	url = https://github.com/ekalinin/Dockerfile.vim.git
