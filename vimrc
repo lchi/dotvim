@@ -167,3 +167,6 @@ nmap <leader>np :set nopaste<cr>
 
 nmap <leader>t :NERDTree<cr>
 nmap <leader>h :split<cr>
+
+let NERDTreeIgnore = ['\.pyc$', '\.git$']
+let NERDTreeShowHidden=1
